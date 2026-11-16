@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="theme-color" content="#f7f7f1"/><meta name="description" content="Search local pickleball courts and open a map centered on your area."/><title>Courts near you — Pickle Go Club</title><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/><link rel="preconnect" href="https://images.unsplash.com"/><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet"/><link rel="stylesheet" href="styles.css"/><script src="site.js" defer></script><script src="app.js" defer></script></head>
+<body data-page="courts"><div data-site-header></div><main>
+  <section class="page-hero courts-hero"><div class="wrap"><p class="hero-kicker"><span></span> FIND A PLACE TO PLAY</p><h1>Your next court<br />is <em>out there.</em></h1><p>Search your area, check the court details, and get everyone on the way.</p></div></section>
+  <section class="section courts-section"><div class="wrap"><div class="section-head"><div><p class="eyebrow">YOUR NEIGHBORHOOD, YOUR NEXT RALLY</p><h2>Courts around you.</h2><p>The map starts in the Philippines. Enter a city or use your location for a closer search.</p></div><div class="location-control"><span class="location-pin">⌖</span><input id="location-input" type="text" value="Philippines" aria-label="Search courts by location"/><button id="near-me-button" type="button" aria-label="Use my location" title="Use my location">◎</button></div></div>
+    <div class="court-finder-grid"><div class="court-photo-card"><img src="https://images.unsplash.com/photo-1791856479524-ee1d0debfba9?auto=format&fit=crop&w=1300&q=82" alt="A player waits beside a pickleball scoreboard at Paddle & Co. in Ozamiz" loading="lazy"/><div class="court-photo-gradient"></div><div class="court-photo-copy"><span>PLAY OUTSIDE</span><h3>Fresh air.<br/>Fast hands.</h3><p>Pick a place, invite your crew, and get rallying.</p></div><a class="photo-credit" href="https://unsplash.com/photos/person-at-pickleball-court-scoreboard-qrOUjRfRRxk" target="_blank" rel="noreferrer">Photo: Karl Joshua Bernal / Unsplash</a></div>
+      <div class="court-results"><div class="court-results-head"><div><span class="eyebrow">PHILIPPINES MAP</span><h3>Find a nearby court</h3></div><span class="court-count" id="court-count">—</span></div><div id="court-list" class="court-list"></div><a class="all-courts" id="maps-link" href="https://www.google.com/maps/search/pickleball+courts+Philippines/" target="_blank" rel="noreferrer">Search courts on Google Maps <span>↗</span></a><p class="data-note">Map search follows the area above · live court listings aren’t connected.</p></div></div>
+<div class="map-panel">
+    <div class="map-panel-head">
+        <div>
+            <p class="eyebrow">COUNTRY VIEW</p>
+            <h3>Philippines</h3>
+        </div>
+        <a href="https://www.google.com/maps/place/Philippines/"
+           target="_blank"
+           rel="noopener noreferrer">
+            Open full map ↗
+        </a>
+    </div>
+    <div class="map-frame-wrap">
+        <iframe
+            class="philippines-map-frame"
+            title="Google Maps centered on the Philippines"
+            src="https://maps.google.com/maps?q=Philippines&z=5&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <p class="map-credit">
+        Map data © <a href="https://www.google.com/maps"
+        target="_blank"
+        rel="noopener noreferrer">Google Maps</a>.
+        Search for courts in your city above.
+    </p>
+</div>
+    <div class="facility-grid"><article><span>01</span><strong>Outdoor courts</strong><p>Play in the fresh air and make a day of it.</p></article><article><span>02</span><strong>Indoor options</strong><p>Keep a rally going when the weather changes.</p></article><article><span>03</span><strong>Open play nearby</strong><p>Browse sample sessions and find your group.</p><a href="events.html">See open play ↗</a></article></div>
+  </div></section>
+</main><div data-site-footer></div></body></html>

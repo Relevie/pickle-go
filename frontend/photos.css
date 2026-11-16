@@ -1,0 +1,29 @@
+/* Photo art direction: all three images are from Paddle & Co., Ozamiz, Philippines. */
+.hero-photo {
+  background-image: url("https://images.unsplash.com/photo-1791856397884-3956ec76fdee?auto=format&fit=crop&w=2200&q=88");
+}
+
+.mission-photo,
+.feature-learn::before,
+.home-about-photo {
+  background-image: url("https://images.unsplash.com/photo-1791856448730-f3f3d3b47ec6?auto=format&fit=crop&w=1400&q=82");
+}
+
+.feature-open::before {
+  background-image: url("https://images.unsplash.com/photo-1791856397884-3956ec76fdee?auto=format&fit=crop&w=850&q=80");
+}
+
+.feature-court::before,
+.court-photo-card > img {
+  background-image: url("https://images.unsplash.com/photo-1791856479524-ee1d0debfba9?auto=format&fit=crop&w=1300&q=82");
+}
+
+.home-about-photo {
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-photo-credit {
+  z-index: 2;
+  bottom: 10px;
+}
